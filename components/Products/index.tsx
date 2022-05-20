@@ -7,7 +7,7 @@ const Products = () => {
     <section className='pb-[48px]'>
       <h1 className='text-[48px] mb-8 font-200 text-center text-brown'>Products</h1>
 
-      <div className='flex flex-wrap gap-4 border-red p-6'>
+      <div className='flex flex-wrap gap-4 p-6'>
         {items.map((item) => (
           <div
             key={item.id}
