@@ -18,7 +18,7 @@ const Hero = () => {
       <div className='flex items-center h-full'>
         {/* Left */}
         <div className='flex-1 h-full relative flex justify-center gap-6'>
-          <div className='ml-4 mt-[150px] text-center md:text-left'>
+          <div className='ml-0 mt-[90px] text-center md:text-left md:mt-[150px] md:ml-4'>
             <span className='text-redBrown text-base mb-3 inline-block font-Circular font-100'>
               Coffee Time.... ☕
             </span>
@@ -31,7 +31,7 @@ const Hero = () => {
             </Link>
           </div>
 
-          <div className='absolute left-[30%] bottom-0 scale-[2] md:left-[10%] md:bottom-[-80px] md:scale-[1.5]'>
+          <div className='absolute left-[30%] bottom-[80px] scale-[2.2] md:left-[10%] md:bottom-[-80px] md:scale-[1.5]'>
             <Image
               src={'/images/splash-1.png'}
               width={200}
