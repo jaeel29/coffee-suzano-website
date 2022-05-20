@@ -1,19 +1,19 @@
 [
   {
     "id": "1",
-    "name": "Type 1",
+    "name": "Product 1",
     "image": "https://coffeeritz.fr/wp-content/uploads/2021/03/individual_coffee1.png",
     "price": "140 MAD"
   },
   {
     "id": "2",
-    "name": "Type 2",
+    "name": "Product 2",
     "image": "https://coffeeritz.fr/wp-content/uploads/2021/03/individual_coffee1.png",
     "price": "140 MAD"
   },
   {
     "id": "2",
-    "name": "Type 2",
+    "name": "Product 2",
     "image": "https://coffeeritz.fr/wp-content/uploads/2021/03/individual_coffee1.png",
     "price": "140 MAD"
   }
