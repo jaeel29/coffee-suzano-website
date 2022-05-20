@@ -7,21 +7,19 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className='w-full flex justify-center items-center relative'>
-      <div className='bg-white w-[300px] h-[150px] flex justify-center items-center rounded-br-[200px] rounded-bl-[200px]'>
-        <Link href={'/'}>
-          <div className='relative w-[150px] h-[62px] cursor-pointer'>
-            <Image
-              src={'/images/Suzano Logo.png'}
-              layout='fill'
-              objectFit='cover'
-              alt='Suzano Logo'
-            />
-          </div>
-        </Link>
-      </div>
+    <header className='w-full flex justify-center items-center sticky top-0 z-50 bg-white h-[80px]'>
+      <Link href={'/'}>
+        <div className='relative w-[104px] h-[44px] cursor-pointer transition-300 active:scale-90'>
+          <Image
+            src={'/images/Suzano-logo.svg'}
+            layout='fill'
+            objectFit='cover'
+            alt='Suzano Logo'
+          />
+        </div>
+      </Link>
 
-      <div className='flex gap-2 absolute right-0'>
+      <div className='flex gap-2 absolute right-[24px]'>
         <a
           href='https://www.instagram.com/mohamedriad17/'
           rel='noreferrer'

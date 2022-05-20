@@ -11,7 +11,15 @@
     font-display: fallback;
   }
 
-  /* @font-face {
+  @font-face {
+    font-family: 'CircularStd';
+    src: url('/fonts/CircularStd-Book.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+    font-display: fallback;
+  }
+
+  @font-face {
     font-family: 'CircularStd';
     src: url('/fonts/CircularStd-Medium.woff2') format('woff2');
     font-weight: 200;
@@ -33,21 +41,30 @@
     font-weight: 400;
     font-style: normal;
     font-display: fallback;
-  } */
+  }
 
   html {
-    font-weight: 200;
+    font-family: CircularStd, system-ui, sans-serif;
+    font-weight: 100;
   }
 
   body {
     background-image: url('/images/patterngBg.png');
   }
 
+  .transition-300 {
+    @apply transition-all duration-300 ease-out;
+  }
+
   .socialLink {
-    @apply rounded-full flex justify-center items-center cursor-pointer w-[44px] h-[44px] bg-white transition-all duration-300 ease-out hover:scale-110;
+    @apply rounded-full flex justify-center items-center cursor-pointer w-[36px] h-[36px] bg-redBrown transition-300 hover:scale-110;
   }
 
   .border-red {
     @apply border border-red-500;
+  }
+
+  .btn {
+    @apply py-3 px-6 bg-brown rounded-full text-white font-Circular font-100 transition-all duration-300 ease-out hover:scale-105 hover:bg-redBrown active:scale-90;
   }
 }
