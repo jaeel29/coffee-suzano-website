@@ -31,7 +31,7 @@ const Hero = () => {
             </Link>
           </div>
 
-          <div className='absolute left-[10%] bottom-[-80px] scale-150'>
+          <div className='absolute left-[30%] bottom-0 scale-[2] md:left-[10%] md:bottom-[-80px] md:scale-[1.5]'>
             <Image
               src={'/images/splash-1.png'}
               width={200}
@@ -53,6 +53,15 @@ const Hero = () => {
                 alt='bg-gradient'
               />
             </div>
+          </div>
+
+          <div>
+            <Image
+              src={'/images/Cofffe-cup.png'}
+              layout='fill'
+              objectFit='contain'
+              alt='coffe cup'
+            />
           </div>
 
           {/* <div className='absolute bottom-[10%] left-[-20%]'>

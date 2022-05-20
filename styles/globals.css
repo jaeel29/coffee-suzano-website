@@ -64,6 +64,10 @@
     @apply border border-red-500;
   }
 
+  .border-blue {
+    @apply border border-blue-500;
+  }
+
   .btn {
     @apply py-3 px-6 bg-brown rounded-full text-white font-Circular font-100 transition-all duration-300 ease-out hover:scale-105 hover:bg-redBrown active:scale-90;
   }
