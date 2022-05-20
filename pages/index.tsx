@@ -28,7 +28,7 @@ const Home: NextPage = () => {
             />
           </div>
 
-          <div className='flex items-center h-full border-red'>
+          <div className='flex items-center h-full'>
             {/* Left */}
             <div className='flex-1 h-full relative flex justify-center gap-6'>
               <div className='ml-4 mt-[150px] text-center md:text-left'>

@@ -57,7 +57,7 @@
   }
 
   .socialLink {
-    @apply rounded-full flex justify-center items-center cursor-pointer w-[36px] h-[36px] bg-redBrown transition-300 hover:scale-110;
+    @apply rounded-full flex justify-center items-center cursor-pointer w-[36px] h-[36px] bg-redBrown transition-300 hover:scale-110 hover:bg-brown active:scale-90;
   }
 
   .border-red {
