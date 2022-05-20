@@ -31,7 +31,7 @@ const Hero = () => {
             </Link>
           </div>
 
-          <div className='absolute left-[30%] bottom-[80px] scale-[2.2] md:left-[10%] md:bottom-[-80px] md:scale-[1.5]'>
+          <div className='absolute left-[30%] bottom-[20px] scale-[2.2] md:left-[10%] md:bottom-[-80px] md:scale-[1.5]'>
             <Image
               src={'/images/splash-1.png'}
               width={200}
