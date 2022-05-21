@@ -4,8 +4,8 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className='h-[calc(100%-80px)] w-full relative overflow-hidden mb-[48px]'>
-      <div className='absolute left-0 top-[-250px] rotate-[220deg]'>
+    <section className='md:h-[75%] h-[calc(100%-80px)] w-full relative mb-[48px]'>
+      <div className='absolute left-0 top-[-150px] rotate-[220deg] z-50 hidden md:block'>
         <Image
           src={'/images/splash-1.png'}
           width={200}
@@ -15,10 +15,10 @@ const Hero = () => {
         />
       </div>
 
-      <div className='flex items-center h-full'>
+      <div className='flex flex-col gap-[60px] items-center h-full md:flex-row md:gap-0'>
         {/* Left */}
-        <div className='flex-1 h-full relative flex justify-center gap-6'>
-          <div className='ml-0 mt-[90px] text-center md:text-left md:mt-[150px] md:ml-4'>
+        <div className='flex-1 h-full relative flex justify-center gap-6 md:items-center'>
+          <div className='ml-0 text-center mt-[80px] md:text-left md:ml-4 md:mt-0'>
             <span className='text-redBrown text-base mb-3 inline-block font-Circular font-100'>
               Coffee Time.... ☕
             </span>
@@ -30,31 +30,10 @@ const Hero = () => {
               <button className='btn mt-6'>See Products</button>
             </Link>
           </div>
-
-          <div className='absolute left-[30%] bottom-[20px] scale-[2.2] md:left-[10%] md:bottom-[-80px] md:scale-[1.5]'>
-            <Image
-              src={'/images/splash-1.png'}
-              width={200}
-              height={200}
-              objectFit='contain'
-              alt='splash-1'
-            />
-          </div>
         </div>
 
         {/* Right */}
-        <div className='relative flex-1 h-full hidden md:block'>
-          <div className='absolute right-[-300px] top-[20%]'>
-            <div className='w-[878px] h-[956px] relative'>
-              <Image
-                src={'/images/Bg-gradient.png'}
-                layout='fill'
-                objectFit='contain'
-                alt='bg-gradient'
-              />
-            </div>
-          </div>
-
+        <div className='relative flex-1 h-[500px] w-full md:h-full'>
           <div>
             <Image
               src={'/images/Cofffe-cup.png'}
@@ -63,17 +42,6 @@ const Hero = () => {
               alt='coffe cup'
             />
           </div>
-
-          {/* <div className='absolute bottom-[10%] left-[-20%]'>
-            <div className='relative w-[206px] h-[103px] rounded-md'>
-              <Image
-                src={'/images/happy-customers.png'}
-                layout='fill'
-                objectFit='contain'
-                alt='Happy cutomers'
-              />
-            </div>
-          </div> */}
         </div>
       </div>
     </section>
